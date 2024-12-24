@@ -1,0 +1,6 @@
+autopep8
+ipython
+psycopg2
+python-dotenv
+scrapy
+scrapy-selenium
