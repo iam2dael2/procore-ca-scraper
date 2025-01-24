@@ -24,7 +24,7 @@ class SaveToPostgresDatabase:
         database_name = os.getenv("DATABASE_NAME")
         port = os.getenv("DATABASE_PORT")
 
-        print(hostname, username, password, database_name, port)
+        print("---------->>>>>>", hostname, username, password, database_name, port)
 
         # Create/Connect to database
         self.connection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database_name, port=port)
