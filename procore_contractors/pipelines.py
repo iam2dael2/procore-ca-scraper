@@ -18,13 +18,11 @@ class ProcoreContractorsPipeline:
 
 class SaveToPostgresDatabase:
     def __init__(self):
-        hostname = os.getenv("DATABASE_HOST")
+        hostname = os.getenv("DATABASE_HOSTNAME")
         username = os.getenv("DATABASE_USERNAME")
         password = os.getenv("DATABASE_PASSWORD")
         database_name = os.getenv("DATABASE_NAME")
         port = os.getenv("DATABASE_PORT")
-
-        print("---------->>>>>>", hostname, username, password, database_name, port)
 
         # Create/Connect to database
         self.connection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database_name, port=port)
