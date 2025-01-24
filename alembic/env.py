@@ -13,7 +13,6 @@ from app.database import SQLMODEL_DATABASE_URL
 # access to the values within the .ini file in use.
 config = context.config
 # config.set_main_option("sqlalchemy.url", f"postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}/{settings.database_name}")
-print(f"SQLMODEL: {SQLMODEL_DATABASE_URL}")
 config.set_main_option("sqlalchemy.url", SQLMODEL_DATABASE_URL)
 
 # Interpret the config file for Python logging.
