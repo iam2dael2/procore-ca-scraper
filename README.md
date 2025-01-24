@@ -31,7 +31,7 @@ Welcome to **Procore CA Scraper**! 🚀 This tool helps you extract contractor d
    pip install -r requirements.txt
    ```
 4. **Set Up Your Database** 🗂️
-<br>Make sure your database is up and running! Update the connection settings in settings.py or your .env file.
+<br>Make sure your database is up and running! Update the connection settings in `settings.py` or your `.env` file.<br><br>
 5. **Run the Scraper** 🕷️
    ```bash
    scrapy crawl contractors
@@ -46,7 +46,7 @@ You can deploy this app privately on Railway.app (or any platform of your choice
 2. Push your repo to Railway via GitHub integration.
 3. Configure your environment variables (e.g., database URL).
 4. Deploy! Share it securely via screenshots or documentation. 📸
-<br><br>Note: For security, deployment instructions are shared through screenshots, ensuring the Procore website link is kept private.
+<br><br>**Note**: For security, deployment instructions are shared through screenshots, ensuring the Procore website link is kept private.
 
 ## 🙏 Acknowledgement
 Thanks for checking out Procore CA Contractors Scraper. Feel free to reach out if you have questions, suggestions, or just want to chat about web scraping! 😊
